@@ -2,12 +2,15 @@
 name = "job-application-finder"
 version = "0.1.0"
 requires-python = ">=3.14.7"
-dependencies= [
-    
+dependencies = [
+
 ]
 [dependency-groups]
 dev = [
+    "pre-commit>=4.7.0",
     "pytest>=9.2.0",
+    "ruff>=0.17.5",
+    "ty>=0.0.105",
 ]
 [tool.pytest.ini_options]
 pythonpath = ["src"]

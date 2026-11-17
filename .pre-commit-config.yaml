@@ -1,0 +1,5 @@
+repos:
+  - repo: https://github.com/betterleaks/betterleaks
+    rev: v0.1.0 # Replace with the latest release tag if newer
+    hooks:
+      - id: betterleaks
